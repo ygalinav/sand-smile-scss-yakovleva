@@ -3,17 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый проект</title>
+    <title>Sand Smile Project</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-    <div class="promo">
-        <div class="promo-inner">
-            <h1 class="promo-ttl">Заголовок сайта</h1>
-            <p class="promo-slogan">Описание сайта, типа тут все самое офиггенное и опупенное</p>
-        </div>
-    </div>
 
+<body>
     <script src="scripts/script.js"></script>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-wrap">
+                <p class="site-title">SandSmile</p>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Мастер-классы</a></li>
+                        <li><a href="#">Локации</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Сувениры</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:+7 812 888-88-88" class="phone">+7 812 888 88 88</a> 
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <section id="promo" class="promo">
+            <div class="container">
+                <div class="promo-wrap">
+                    <div class="promo-visual">
+                        <img src="images/bgcastle.jpg" alt="Замок из песка">
+                    </div>
+                    <div class="promo-info">
+                        <h1 class="promo-title">SandSmile</h1>
+                        <p>Учим строить песочные замки, проводим мастер-классы для взрослых и детей в Санкт-Петербурге и Ленинградской области</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="workshop">
+            <div class="container">
+               <div class="workshop-wrap">
+                   <h2 class="workshop-title">Мастер-классы</h2>
+                   <div class="workshop-card">
+                        <div class="workshop-visual">
+                            <img src="images/childrenplaying.jpg" alt="Дети играют на пляже">
+                            <h3 class="workshop-card-title">Детский</h3>
+                            <p>Внедрение современных методик позволяет оценить.</p>
+                            <ul class="worshop-card-options">
+                                <li>от 8 лет</li>
+                                <li>2 часа</li>
+                                <li>до 6 человек</li>
+                            </ul>
+                            <button class="btn-price">10 000 ₽</button>
+                            <a href="#" class="btn-order">Заказать</a>
+                        </div>
+                   </div>
+                   <div class="workshop-card">
+                    <div class="workshop-visual">
+                        <img src="images/familyinthesea.jpg" alt="Семья на море">
+                        <h3 class="workshop-card-title">Семейный</h3>
+                        <p>В целом, конечно, внедрение современных методик обеспечивает широкому кругу (специалистов) участие в формировании экспериментов.</p>
+                        <ul class="worshop-card-options">
+                            <li>3 часа</li>
+                            <li>до 6 человек</li>
+                            <li>20 фото 10Х15</li>
+                        </ul>
+                        <button class="btn-price">20 000 ₽</button>
+                        <a href="#" class="btn-order">Заказать</a>
+                    </div>
+               </div>
+               <div class="workshop-card">
+                <div class="workshop-visual">
+                    <img src="images/partycrowd.jpg" alt="Вечеринка на пляже">
+                    <h3 class="workshop-card-title">На компанию</h3>
+                    <p>Не обещаем, что вы запомните мастер-класс:) Но оторвётесь по полной!</p>
+                    <ul class="worshop-card-options">
+                        <li>от 18 лет</li>
+                        <li>с 19 ч и до утра</li>
+                        <li> ∞ человек</li>
+                        <li>∞ коктейли</li>
+                        <li>DJ</li>
+                    </ul>
+                    <button class="btn-price">5000 ₽/чел</button>
+                    <a href="#" class="btn-order">Заказать</a>
+                </div>
+           </div>
+               </div> 
+            </div>
+        </section>
+
+        <section class="event-photos">
+            <div class="container">
+               <div class="event-photos-wrap">
+                   <h2 class="event-photos-title">Фото с мероприятий</h2>
+                   <div class="event-photos-visual">
+                       <button class="btn-arrow-left">←</button>
+                       <img src="images/boybuildingacastle.jpg" alt="Молодой человек строит замок">
+                       <button class="btn-arrow-right">→</button>  
+                   </div>
+                </div>
+            </div>
+        
+        <section class="locations">
+            <div class="container">
+                <div class="locations-wrap">
+                    <h2 class="locations-title">Локации</h2>
+                    <div class="location-card">
+                        <div class="location-visual">
+                            <img src="images/peterandpaulbeach.jpg" alt="Пляж Петропавловской крепости">
+                        <h3 class="location-card-title">Пляж Петропавловской крепости</h3>
+                        <a href="#" class="btn-more">Подробнее о локации</a>
+                        </div>
+                    </div>
+                    <div class="location-card">
+                        <div class="location-visual">
+                            <img src="images/osinovetslighthouse.jpg" alt="Осиновецкий маяк">
+                        <h3 class="location-card-title">Осиновецкий маяк</h3>
+                        <a href="#" class="btn-more">Подробнее о локации</a>
+                        </div>
+                    </div>
+                    <div class="location-card">
+                        <div class="location-visual">
+                            <img src="images/laskoviybeach.jpg" alt="Ласковый пляж в Курортном районе">
+                        <h3 class="location-card-title">Ласковый пляж в Курортном районе</h3>
+                        <a href="#" class="btn-more">Подробнее о локации</a>
+                        </div>
+                    </div>
+                    <div class="location-card">
+                        <div class="location-visual">
+                            <img src="images/300anniversarypark.jpg" alt="Парк имени 300-летия Санкт-Петербурга">
+                        <h3 class="location-card-title">Парк имении 300-летия Санкт-Петербурга</h3>
+                        <a href="#" class="btn-more">Подробнее о локации</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <div class="team-wrap">
+                    <h2 class="team-title">Команда</h2>
+                    <div class="team-member-card">
+                        <div class="team-member-visual">
+                            <img src="images/tmemberleewow.png" alt="Фото Сэра Ли Вау 1">
+                        <a href="#" class="btn-member-name">Sir Lee  Wow I</a>
+                        </div>
+                    </div>
+                    <div class="team-member-card">
+                        <div class="team-member-visual">
+                            <img src="images/tmemberpenelope.jpg" alt="Фото Пенелопы">
+                        <a href="#" class="btn-member-name">Penelope</a>
+                        </div>
+                    </div>
+                    <div class="team-member-card">
+                        <div class="team-member-visual">
+                            <img src="images/tmemberbb.png" alt="Фото Мистера Б.Б.">
+                        <a href="#" class="btn-member-name">Mr B.B.</a>
+                        </div>
+                    </div>
+                    <div class="team-member-card">
+                        <div class="team-member-visual">
+                            <img src="images/tmemberleewow.png" alt="Фото Сэра Ли Вау 2">
+                        <a href="#" class="btn-member-name">Sir Lee  Wow II</a>
+                        </div>
+                        <div class="team-member-info">
+                            <h3 class="team-member-title">Sir Lee Wow II</h3>
+                            <p>Брат-близнец Сэра Ли Первого. Вместе с братом - весьма эффективная команда по приготовлению бургеров и прочих закусок. В нашей команде есть легенда, что однажды они сделали столько бургеров, что даже Мистер Биг Бургер (Mr B.B.) не смог их съесть.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts-wrap">
+                    <h2 class="contacts-title">Контакты</h2>
+                    <p>Остались вопросы? Позвоните нам по телефону <a href="tel:+78128888888">+7 812 888-88-88</a>, напишите в <a href="#">WhatsApp</a>или заполните форму, и мы ответим вам в WhatsApp по указанному номеру телефона.</p>
+                    <form action="#" method="POST" class="contacts-form">
+                        <div class="contacts-field contacts-field-half">
+                            <input type="text" name="name" placeholder="Имя">
+                            <label for="name">Имя</label>
+                        </div>
+                        <div class="contacts-field contacts-field-half">
+                            <input type="number" name="telephone" placeholder="Телефон">
+                            <label for="telephone">Телефон</label>
+                        </div>
+                        <div class="contacts-field">
+                            <textarea name="message" placeholder="Cообщение"></textarea>
+                            <label for="message">Сообщение</label>
+                          </div>
+                          <div class="contacts-field">
+                            <div class="form-confirm">
+                            <input id="confirm" type="checkbox">
+                            <label for="confirm" class="confirm-label">Даю согласие на обработку персональных данных в соответствии с политикой обработки персональных данных</label>
+                          </div>
+                          <div class="contacts-field">
+                            <button class="btn btn-full" type="submit">Отправить</button>
+                          </div>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <p class="copyright">Ничего не защищено</p>
+                <ul class="social-icons">
+                    <li class="social-icons-item">
+                      <a href="#" class="social-icons-link social-icons-link-instagram">Instagram</a>
+                    </li>
+                    <li class="social-icons-item">
+                      <a href="#" class="social-icons-link social-icons-link-fb">Facebook</a>
+                    </li>
+                    <li class="social-icons-item">
+                      <a href="#" class="social-icons-link social-icons-link-telegram">Telegram</a>
+                    </li>
+                  </ul> 
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
